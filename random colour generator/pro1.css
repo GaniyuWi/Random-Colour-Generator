@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #eaf0f1;
+}
+.dis{
+    max-width: 100%;
+    position: absolute;
+    box-sizing: border-box;
+    width: 30%;
+    border: 3px solid #044255;
+    box-shadow: -4px 4px 0 0 #044255;
+    border-radius: 3px;
+    text-align: center;
+    top:10%;
+    left: 35%;
+    color: #044255;
+}
+.mm{
+    width: 100%;
+    font: 3rem bold tahoma;
+}
+.click{
+    position: absolute;
+    width:20%;
+    padding:2%;
+    border: 3px solid #044255;
+    box-shadow: -4px 4px 0 0 #044255;
+    border-radius: 3px;
+    text-align: center;
+    top:55%;
+    left: 38%;
+    font: 2rem bold tahoma;
+    transition: box-shadow 0.3s ;
+}
+    .click:hover{
+        background-color: #dde6e9;
+    }
+    .click:active{
+        background-color:#c7d1d3;
+        box-shadow: -1px 1px 0 0 #044255;
+    }
+   /* .click::before{
+        position: absolute;
+        content: "";
+        border: solid 7px transparent;
+        border-right: solid 7px #044255;
+        border-left-width: 0px;
+        top:-4px;
+        left:-8px;
+        transition: all 0.3s ease-in-out;
+    }
+    .click:active::before{
+        border: solid 1px transparent;
+        border-right: solid 1px #044255;
+        top:-4px;
+        left:-4px;
+    }
+    .click::after{
+        position: absolute;
+        content: "";
+        border: solid 6px transparent;
+        border-top: solid 6px #044255;
+        border-bottom-width: 0px;
+        right:-3px;
+        bottom:-7.5px;
+        transition: all 0.3s ease-in-out;
+    }
+    .click:active::after{
+        border: solid 4px transparent;
+        border-top: solid 4px #044255;
+        right:-3.1px;
+        bottom:-8.9px;
+    }
+    /*.c0{
+        background-color:#f312c2; 
+    }
+    .c1{
+        background-color: #34b3d6;
+    }
+    .c2{
+        background-color: #f99316;
+    }
+    .c3{
+        background-color:#f99316;
+    }
+    .c4{
+        background-color:#f99316;
+    }
+    */*/
